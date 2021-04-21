@@ -1,0 +1,33 @@
+package programacionparalela;
+
+
+public class Main {
+	static HiloRunn1 hr1;
+	static HiloRunn2 hr2;
+	
+
+	
+	public static void main(String[] args) {
+		hr1.run();
+		hr2.run();
+		
+		
+		
+		
+		
+		
+//		ExecutorService executor1 = Executors.newSingleThreadExecutor();
+//		executor1.submit(() -> {
+//			Exercises.task1();
+//		});
+//		
+//		ExecutorService executor2 = Executors.newSingleThreadExecutor();
+//		executor2.submit(() -> {
+//			Exercises.task2();
+//		});
+//		/*ExecutorService executor3 = Executors.newSingleThreadExecutor();
+//		executor3.submit(() -> {
+//			Exercises.task3();
+//		});*/
+	}
+}

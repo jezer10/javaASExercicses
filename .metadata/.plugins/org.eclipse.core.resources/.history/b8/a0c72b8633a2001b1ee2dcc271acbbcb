@@ -1,0 +1,11 @@
+package programacionparalela;
+
+public class Hilos2 implements Runnable{
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

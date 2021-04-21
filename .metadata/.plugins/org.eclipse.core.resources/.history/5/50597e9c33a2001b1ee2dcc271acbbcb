@@ -1,0 +1,6 @@
+package programacionparalela;
+
+
+public class HiloRunn extends Thread{
+
+}

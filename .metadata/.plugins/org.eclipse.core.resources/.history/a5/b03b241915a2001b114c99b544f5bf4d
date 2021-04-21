@@ -1,0 +1,27 @@
+package programacionparalela;
+
+import java.util.Iterator;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+
+public class Main {
+	
+	
+
+	
+	public static void main(String[] args) {
+		ExecutorService executor1 = Executors.newSingleThreadExecutor();
+		executor1.submit(() -> {
+
+		});
+		
+		ExecutorService executor2 = Executors.newSingleThreadExecutor();
+		executor2.submit(() -> {
+
+		});
+		ExecutorService executor3 = Executors.newSingleThreadExecutor();
+		executor3.submit(() -> {
+
+		});
+	}
+}

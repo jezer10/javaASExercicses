@@ -1,0 +1,27 @@
+package programacionparalela;
+
+public class HiloRunn implements Runnable{
+	
+	private static void par() {
+		for (int i = 1; i <=10; i++) {
+			
+			if(i%2==1) {
+				
+			}else {
+				System.out.println(i);
+			}
+
+		}
+		
+	}
+	private static void impar() {
+		
+	}
+	@Override
+	public void run() {
+
+		
+		
+	}
+
+}

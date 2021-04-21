@@ -1,0 +1,7 @@
+package programacionparalela;
+
+import sun.jvm.hotspot.runtime.Threads;
+
+public class Hilos extends Thread{
+
+}

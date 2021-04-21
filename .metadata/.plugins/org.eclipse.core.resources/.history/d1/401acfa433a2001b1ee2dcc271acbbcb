@@ -1,0 +1,11 @@
+package programacionparalela;
+
+public class HiloInThreads implements Runnable{
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

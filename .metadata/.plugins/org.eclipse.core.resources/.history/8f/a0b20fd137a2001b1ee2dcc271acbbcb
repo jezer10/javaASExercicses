@@ -1,0 +1,27 @@
+package programacionparalela;
+
+public class HiloRunn1 implements Runnable {
+
+	private static void par() {
+		int c=0;
+		for (int i = 1; i <= 10; i++) {
+			
+			if (i % 2 == 1) {
+
+			} else {
+				c+=i;
+				System.out.println("HILO 1( NUMERO PAR: "+i+" SUMA: "+c+" )");
+			}
+
+		}
+
+	}
+
+	@Override
+	public  void run() {
+
+		par();
+
+	}
+
+}

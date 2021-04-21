@@ -1,0 +1,20 @@
+package programacionparalela;
+
+public class Exercises {
+	public static void task1() {
+		for (int i = 0; i < 5; i++) {
+			System.out.println("Task1"+i);
+		}
+	}
+	
+	public static void task2() {
+		for (int i = 0; i < 5; i++) {
+			System.out.println("Task2"+i);
+		}
+	}
+	public static void task3() {
+		for (int i = 0; i < 5; i++) {
+			System.out.println("Task3"+i);
+		}
+	}
+}
